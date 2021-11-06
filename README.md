@@ -5,7 +5,7 @@ Chat bot using a transformer model. Done in tensorflow.
 Calculating attention:
 
 
-![alt text](https://4.bp.blogspot.com/-JGovZjJGRdU/XfgOi02BVUI/AAAAAAAAB04/hYZsLatBIkE30aYDftH7avQ6dL4KyJ3KgCLcBGAsYHQ/s1600/formula.png)
+![alt text](https://glassboxmedicine.files.wordpress.com/2019/08/attention-equation.png)
 
 Where Q, K, V are vectors representing queries, keys and values. Query is a vector representing a word which we want to get attention values for, 
 keys is a context (sentence for example), and values is representing
