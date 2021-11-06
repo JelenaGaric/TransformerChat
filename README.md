@@ -24,3 +24,8 @@ Positional encoding:
 
 Where pos is the position of a word in the sentence and i are indexes in the embedding dimension (i is range from 1 to length of positional encoding vector). 
 Sine and cosine - model easily learns to attend by relative positions.
+
+
+Model:
+
+https://glassboxmedicine.files.wordpress.com/2019/08/figure1modified.png?w=616
