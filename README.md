@@ -28,4 +28,9 @@ Sine and cosine - model easily learns to attend by relative positions.
 
 Model:
 
-https://glassboxmedicine.files.wordpress.com/2019/08/figure1modified.png?w=616
+![alt text](https://glassboxmedicine.files.wordpress.com/2019/08/figure1modified.png?w=616)
+
+Consists of encoder and decoder. Each one is made up of more layers. Each EncoderLayer has two sub-layers: multi-headed self-attention and a feedforward layer.
+Each DecoderLayer has three sub-layers: multi-headed self-attention, multi-headed encoder-decoder attention, and a feedforward layer.
+At the end of the Decoder, a linear layer and a softmax are applied to the Decoder output to predict the next word.
+The Encoder is run once. The Decoder is run multiple times, to produce a predicted word at each step
