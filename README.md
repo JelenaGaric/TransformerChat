@@ -18,4 +18,9 @@ Those normalized weights are then being multiplied by value vectors
 
 
 
+Positional encoding:
 
+![alt text](https://glassboxmedicine.files.wordpress.com/2019/08/positional-encoding.png)
+
+Where pos is the position of a word in the sentence and i are indexes in the embedding dimension (i is range from 1 to length of positional encoding vector). 
+Sine and cosine - model easily learns to attend by relative positions.
