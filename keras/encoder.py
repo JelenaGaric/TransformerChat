@@ -3,8 +3,10 @@ from tensorflow.python.keras import Model
 from tensorflow.python.keras.layers import Dropout, LayerNormalization, Dense
 from transformer import MultiHeadAttention
 
-# encoder layer consists of: multi-head attention and padding mask
-# and 2 dense layers followed by dropout
+
+# encoder layer consists of 2 sublayers:
+# multi-head attention and padding mask
+# 2 dense layers followed by dropout
 
 # multi-head attention:
 # does multiplication of query and keys weights
