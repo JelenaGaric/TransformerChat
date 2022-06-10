@@ -13,12 +13,21 @@ from decoder import decoder
 # final linear layer
 
 # look_ahead_mask is used to mask out future tokens in a sequence
-# their length differs so Lambda layer are used
+# their length differs so Lambda layers are used
 
-class transformer():
-    def __int__(self, vocab_size, layers_num, units, model_dim, heads_num, dropout_rate,
-                padding_mask, look_ahead_mask,
-                name="transformer"):
+class Transformer():
+    def __int__(
+            self,
+            vocab_size,
+            layers_num,
+            units,
+            model_dim,
+            heads_num,
+            dropout_rate,
+            padding_mask,
+            look_ahead_mask,
+            name="transformer"
+    ):
         self.vocab_size = vocab_size
         self.layers_num = layers_num
         self.units = units
